@@ -1,0 +1,23 @@
+.bd-right {
+  border-right: 1px solid;
+  border-color: rgb(206, 206, 206);
+}
+.bd-top {
+  border-top: 1px solid;
+  border-color: rgb(206, 206, 206);
+}
+
+.bd-radius {
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 25px;
+  margin: 1rem 1rem;
+}
+
+.rem1 {
+  padding: 1rem 1rem;
+}
+
+.BigIcon {
+  font-size: 1.5rem;
+  color: cornflowerblue;
+}
