@@ -73,3 +73,4 @@ console.log(a+ " " + b);
 
 
 
+export {world1, world2, world3, msg, msg2}

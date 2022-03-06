@@ -74,3 +74,5 @@ log4(undefined, {...defaultvalue,aId:"aaa"});
     aId : "aaa",
     bId : "bbbbbbbb" 로 변경이 됨.
 */
+
+export{log1,log2,log3,log4,defaultvalue}

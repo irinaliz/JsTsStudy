@@ -93,3 +93,5 @@ const로 선언해주면 된다
 절대불변 변하지 않을 것.
 
 */
+
+export{me1,me2,myType,myType2,myArray, nameTest,nameTest2}
