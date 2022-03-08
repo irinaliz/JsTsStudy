@@ -26,6 +26,10 @@ window.onload = function () {
         listBox.append(todoItem.div);
         closeButton.click();
     };
+    document.addEventListener("click", function (e) {
+        var target = e.target;
+    });
+    //eventsListeners(div,onclick,console.log);
     saveButton.addEventListener("click", addTodo);
     addButton.addEventListener("click", function () {
         setTimeout(function () {

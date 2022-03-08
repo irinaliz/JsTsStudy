@@ -24,4 +24,4 @@ interface를 상속받고 override를 하려했으나, 부모에선 name이 필�
 
 */
 
-export{userName,userAge,UserInfo,UserNameOver}
+export {userName,userAge,UserInfo,UserNameOver}

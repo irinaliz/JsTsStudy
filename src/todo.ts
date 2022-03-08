@@ -1,3 +1,5 @@
+
+
 window.onload = () =>{
     const byid = (id:string) =>{return document.getElementById(id)}
     const listBox:HTMLElement = byid("list");
@@ -17,12 +19,12 @@ window.onload = () =>{
         const text:string = textElement.value;
 
         let todoItem:TodoItem = {
-            div:document.createElement('div') as HTMLDivElement , 
+            div:document.createElement('div') as HTMLDivElement ,
             input:document.createElement('input') as HTMLInputElement,
-            label:document.createElement('label') as HTMLLabelElement, 
-            text: "클릭해서 내용을 바꿔주세요!"  
+            label:document.createElement('label') as HTMLLabelElement,
+            text: "클릭해서 내용을 바꿔주세요!"
         };
-        
+
         let itemId = "item"+document.getElementById("list").children.length;
 
         todoItem.input.className = "form-check-input";
@@ -39,11 +41,16 @@ window.onload = () =>{
         listBox.append(todoItem.div);
 
         closeButton.click();
-
     }
 
+    document.addEventListener("click", (e :DragEvent) =>{
+        const target = e.target as HTMLElement;
 
-    
+    })
+
+
+    //eventsListeners(div,onclick,console.log);
+
     saveButton.addEventListener("click",addTodo);
     addButton.addEventListener("click", ()=>{
         setTimeout(()=>{
